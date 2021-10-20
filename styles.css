@@ -1,12 +1,12 @@
 * {box-sizing: 600px;
 }
 html { 
-  background:lightcyan;}
+  background:lightgray;}
 
 header {
    font-family: 'Luckiest Guy', Courier, monospace;
    font-size: 30;
-   color:darkblue;
+   color: purple;
    text-align: center;
 }
 
@@ -22,6 +22,7 @@ table{
  padding:150px
  border:100px;
  max-width: 900px;
+ empty-cells: show;
 }
 
 table th{
@@ -33,18 +34,23 @@ table th{
 }
 
 table td {
-  color:mediumblue;
+  color:purple;
   background:lavenderblush;
-  height: 100px;
+  max-height: 50px;
+  max-width: 300px; 
   margin: 0 auto;
-  overflow: hidden;
+  padding: 15px;
 }
 
 code {
   font-family: monospace;
-  color:royalblue;
+  color: hotpink;
 }
 
 .monospace {
   font-family: "Lucida Console", Courier, monospace;
+}
+
+footer {
+  padding: 70px;
 }
