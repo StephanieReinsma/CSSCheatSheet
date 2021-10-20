@@ -1,0 +1,50 @@
+* {box-sizing: 600px;
+}
+html { 
+  background:lightcyan;}
+
+header {
+   font-family: 'Luckiest Guy', Courier, monospace;
+   font-size: 30;
+   color:darkblue;
+   text-align: center;
+}
+
+
+h3 {
+  font-family:sans-serif;
+}
+
+/*table*/
+
+table{
+ margin: 0 auto;
+ padding:150px
+ border:100px;
+ max-width: 900px;
+}
+
+table th{
+   font-family:sans-serif;
+   font-size:30;
+   height: 120px;   
+   color: white;
+   background:palevioletred;
+}
+
+table td {
+  color:mediumblue;
+  background:lavenderblush;
+  height: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+code {
+  font-family: monospace;
+  color:royalblue;
+}
+
+.monospace {
+  font-family: "Lucida Console", Courier, monospace;
+}
